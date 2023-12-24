@@ -1,11 +1,11 @@
 // src/App.tsx
 import React from "react";
-import Listadetarefas from "./components/listadetarefas";
+import Tasklist from "./components/tasklits.tsx";
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Listadetarefas />
+      <Tasklist />
     </div>
   );
 };
