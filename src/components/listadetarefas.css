@@ -1,0 +1,59 @@
+/* src/components/Listadetarefas.css */
+body {
+  background: linear-gradient(#36ba0a, #666);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  background-color: #959494;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 8px;
+}
+
+li {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+input[type="text"] {
+  margin-right: 8px; /* Adicione uma margem à direita do input */
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #262424;
+}
+
+button {
+  margin-left: 8px; /* Adicione uma margem à esquerda do button */
+  margin-top: 8px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #262424;
+  cursor: pointer;
+  background-color: #262424;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
