@@ -1,6 +1,6 @@
 // src/App.tsx
 import React from "react";
-import Tasklist from "./components/tasklits.tsx";
+import Tasklist from "./components/Tasklits.tsx";
 
 const App: React.FC = () => {
   return (
